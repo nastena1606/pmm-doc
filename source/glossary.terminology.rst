@@ -3,58 +3,100 @@
 Terminology Reference
 ********************************************************************************
 
-.. _PMM-annotation:
+.. raw:: html
 
-`PMM annotation <PMM-annotation>`_
---------------------------------------------------------------------------------
-   A feature of |pmm-server| which adds a special mark to all
-   dashboards and signifies an important event in your
-   application. Annotations are added on the |pmm-client| by using
-   the |pmm-admin.annotate| command.
+   <div class="panel-group" id="accordion">
+   <div class="panel panel-default">
+   <div class="panel-heading">
+   <h4 class="panel-title">
+   <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#pmm-annotation">
+   PMM annotation
+   </a>
+   </h4>
+   </div>
+   <div id="pmm-annotation" class="panel-collapse collapse">
+   <div class="panel-body">
 
-   .. seealso::
+   <div class="toctree-wrapper compound">
 
-	 |grafana| Documentation: Annotations
+A feature of |pmm-server| which adds a special mark to all
+dashboards and signifies an important event in your
+application. Annotations are added on the |pmm-client| by using
+the |pmm-admin.annotate| command.
 
-	    http://docs.grafana.org/reference/annotations/
+.. raw:: html
 
-.. _PMM-user-permissions-for-AWS:
+   </div>
+   </div>
+   </div>
+   </div>
 
-`PMM user permissions for AWS <PMM-user-permissions-for-AWS>`_
---------------------------------------------------------------------------------
-      When creating a `IAM user
-      <https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_SettingUp.html#CHAP_SettingUp.IAM>`_
-      for |amazon-rds| DB instance that you intend to monitor in PMM, you need to set all
-      required permissions properly. For this, you may copy the following |JSON| for your
-      IAM user:
+   </div>
 
-      .. include:: .res/code/aws.iam-user.permission.txt
+   <div class="panel-group" id="accordion">
+   <div class="panel panel-default">
+   <div class="panel-heading">
+   <h4 class="panel-title">
+   <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#pmm-user-permissions-for-aws">
+   PMM user permissions for AWS
+   </a>
+   </h4>
+   </div>
+   <div id="pmm-user-permissions-for-aws" class="panel-collapse collapse">
+   <div class="panel-body">
 
-      .. seealso::
+   <div class="toctree-wrapper compound">
 
-	 Creating an IAM user
-	    :ref:`pmm.amazon-rds.iam-user.creating`
+When creating a `IAM user
+<https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_SettingUp.html#CHAP_SettingUp.IAM>`_
+for |amazon-rds| DB instance that you intend to monitor in PMM, you need to set all
+required permissions properly. For this, you may copy the following |JSON| for your
+IAM user:
 
-.. _Data-retention:
+.. include:: .res/code/aws.iam-user.permission.txt
 
-`Data retention <data-retention>`_
---------------------------------------------------------------------------------
-      By default, |prometheus| stores time-series data for 30 days,
-      and :ref:`QAN <QAN>` stores query data for 8 days.
+.. raw:: html
 
-      Depending on available disk space and your requirements, you may
-      need to adjust data retention time.
+   </div>
+   </div>
+   </div>
+   </div>
 
-      You can control data retention by passing the :option:`METRICS_RETENTION`
-      and :option:`QUERIES_RETENTION` environment variables when :ref:`creating
-      and running the PMM Server container <server-container>`.
+   </div>
 
-      .. seealso::
+   <div class="panel-group" id="accordion">
+   <div class="panel panel-default">
+   <div class="panel-heading">
+   <h4 class="panel-title">
+   <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#data-retention">
+   Data retention
+   </a>
+   </h4>
+   </div>
+   <div id="data-retention" class="panel-collapse collapse">
+   <div class="panel-body">
 
-	 Metrics retention
-	    :option:`METRICS_RETENTION`
-	 Queries retention
-	    :option:`QUERIES_RETENTION`
+   <div class="toctree-wrapper compound">
+
+
+By default, |prometheus| stores time-series data for 30 days,
+and :ref:`QAN <QAN>` stores query data for 8 days.
+
+Depending on available disk space and your requirements, you may
+need to adjust data retention time.
+
+You can control data retention by passing the :option:`METRICS_RETENTION`
+and :option:`QUERIES_RETENTION` environment variables when :ref:`creating
+and running the PMM Server container <server-container>`.
+
+.. raw:: html
+
+   </div>
+   </div>
+   </div>
+   </div>
+
+   </div>
 
 .. _Default-ports:
 
