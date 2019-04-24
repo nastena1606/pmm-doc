@@ -3,11 +3,10 @@
 MySQL requirements
 ********************************************************************************
 
-|pmm| supports all commonly used variants of |mysql|, including
-|percona-server|, |mariadb|, and |amazon-rds|.  To prevent data loss and
+|pmm| supports the following distributions of |mysql|, including
+|percona-server|, MySQL Community & Enterprise, |mariadb|, Amazon Aurora MySQL, and |Amazon RDS MySQL|.  To prevent data loss and
 performance issues, |pmm| does not automatically change |mysql| configuration.
-However, there are certain recommended settings that help maximize monitoring
-efficiency. These recommendations depend on the variant and version of |mysql|
+However, there are certain settings you can make that will improve visibility of MySQL's performance. These recommendations depend on the distribution and version of |mysql|
 you are using, and mostly apply to very high loads.
 
 |pmm| can collect query data either from the |slow-query-log| or from
