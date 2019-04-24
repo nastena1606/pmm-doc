@@ -39,7 +39,7 @@ with data retention set to one week.
    greatly decrease Prometheus database size.
 
 Minimum memory is 2 GB for one monitored database node, but it is not
-linear when you add more nodes.  For example, data from 20 nodes
+linear as you add more nodes.  For example, data from 20 nodes
 should be easily handled with 16 GB.
 
 .. rubric:: |pmm-client|
