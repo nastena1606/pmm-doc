@@ -292,4 +292,6 @@ man_pages = [
 ]
 
 def setup(app):
+    app.add_stylesheet('asciinema-player.css')
+    app.add_javascript('js/asciinema-player.js')
     app.add_javascript('js/toggle-menu.js')
