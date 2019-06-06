@@ -37,6 +37,7 @@ procedure. |tip.run-all.root|:
      sudo apt-get install pmm2-client
 
    .. raw:: html
+   
       <a href="https://asciinema.org/a/TqSx46agpDClkTjDPQR3HNtu0" target="_blank"><img src="https://asciinema.org/a/TqSx46agpDClkTjDPQR3HNtu0.svg" /></a>
 
 #. Having experimental packages enabled may affect further packages installation with versions which are not ready for production. To avoid this, disable this component with the following commands::
