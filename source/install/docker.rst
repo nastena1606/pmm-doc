@@ -17,10 +17,15 @@ Make sure that the firewall and routing rules of the host do not constrain the
 
 For more information about using |docker|, see the `Docker Docs`_.
 
+For ease of deployment, you can run:
+
+curl -fsSL https://get.docker.com -o get-docker.sh
+sh get-docker.sh
+
 .. important::
 
    By default, :ref:`retention <data-retention>` is set to 30 days for
-   |metrics-monitor| and to 8 days for |qan.name|.  Also consider
+   |metrics-monitor| and for |qan.name|.  Also consider
    :ref:`disabling table statistics <performance-issues>`, which can greatly
    decrease |prometheus| database size.
 
