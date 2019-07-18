@@ -25,8 +25,8 @@ procedure. |tip.run-all.root|:
      sudo dpkg -i percona-release_latest.generic_all.deb
 
    .. raw:: html
-	      
-	      <asciinema-player src="demo.cast"></asciinema-player>
+
+      <script id="asciicast-LaIiFlGWZdWAMPf4p4OUEHrjB" src="https://asciinema.org/a/LaIiFlGWZdWAMPf4p4OUEHrjB.js" async data-theme="monokai" data-rows="8"></script>
 
    Since PMM 2 is still not GA, you’ll need to use it to enable the experimental component of the original Percona repository::
 
