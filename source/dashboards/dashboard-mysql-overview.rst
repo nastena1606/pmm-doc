@@ -386,7 +386,7 @@ they are autosized |mysql| 5.6 and above (do not set them to any value).
 
 .. raw:: html
 
-   <p align="left"><iframe src='https://new.percona.com/doc/percona-monitoring-and-management' style="width: 1600px; height: 900px; -webkit-transform: scale(0.5, 0.5)" scrolling='no'></iframe></p>
+   <iframe src='https://new.percona.com/doc/percona-monitoring-and-management' style="width: 1600px; height: 900px; -webkit-transform: scale(0.5, 0.5);  -webkit-transform-origin: 0 0" scrolling='no'></iframe>
 
 
 
