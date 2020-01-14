@@ -386,6 +386,13 @@ they are autosized |mysql| 5.6 and above (do not set them to any value).
 
 .. raw:: html
 
+   <script>
+       document.domain = "percona.com";
+       //console.log('doc ' + JSON.stringify(document));
+   </script>
+
+   <iframe src='https://pmmdemo.percona.com/graph/d/mysql-instance-overview/mysql-instances-overview?orgId=1&from=now-12h&to=now&refresh=1m' style="width: 1600px; height: 900px; -webkit-transform: scale(0.5, 0.5);  -webkit-transform-origin: 0 0" scrolling='no'></iframe>
+
    <iframe src='https://new.percona.com/doc/percona-monitoring-and-management' style="width: 1600px; height: 900px; -webkit-transform: scale(0.5, 0.5);  -webkit-transform-origin: 0 0" scrolling='no'></iframe>
 
 
